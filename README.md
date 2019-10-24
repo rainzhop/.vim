@@ -7,6 +7,7 @@
 
 * NERDTree
 * supertab
+* auto-pairs
 * vim-one (主题)
 
 ## 使用方法
