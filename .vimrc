@@ -10,6 +10,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'ervandew/supertab'
 Plugin 'rakr/vim-one'
+Plugin 'jiangmiao/auto-pairs'
 
 call vundle#end()            " 必须
 filetype plugin indent on    " 必须 加载文件类型检测
