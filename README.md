@@ -1,8 +1,28 @@
 .vim
 =====
-尝试使用[教程：使用 pathogen + git 管理 Vim 插件][1]中的方法对Vim插件进行管理
 
-* 初始化 `git submodule init`
-* 更新 `git submodule update`
+使用vundle对Vim插件进行管理
 
-[1]: http://lostjs.com/2012/02/04/use-pathogen-and-git-to-manage-vimfiles/
+## 使用插件
+
+* NERDTree
+* supertab
+* vim-one (主题)
+
+## 使用方法
+
+### 安装Vundle
+
+```bash
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+```
+
+### 配置`.vimrc`
+
+将`.vimrc`文件拷贝到`~`目录下。
+
+### 安装插件
+
+```bash
+vim +PluginInstall +qall
+```
